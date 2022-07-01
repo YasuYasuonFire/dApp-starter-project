@@ -211,6 +211,9 @@ const App = () => {
             ✨
           </span>
         </div>
+        <div>
+        <p>currentAccount:  {currentAccount}</p>
+        </div>
         <button className="waveButton" onClick={wave}>
           Wave at Me
         </button>
